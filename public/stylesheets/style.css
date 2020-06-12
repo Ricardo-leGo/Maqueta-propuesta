@@ -1,0 +1,34 @@
+@media (min-width: 1681px) {
+  iframe {
+    z-index: 1000000;
+    position: absolute;
+    float: left;
+    top: 60vh;
+    left: 16.5%;
+    width: 12%;
+    height: 12%;
+    transform: perspective(350px) rotateY(16deg);
+    border: solid 3px gray; } }
+
+@media (max-width: 1680px) and (min-width: 1024px) {
+  iframe {
+    z-index: 1000000;
+    position: absolute;
+    float: left;
+    top: 55vh;
+    left: 16.5%;
+    width: 12%;
+    height: 12%;
+    transform: perspective(350px) rotateY(16deg);
+    border: solid 3px gray; } }
+
+.bg-black-alt {
+  background: #191919; }
+
+.text-black-alt {
+  color: #191919; }
+
+.border-black-alt {
+  border-color: #191919; }
+
+/*# sourceMappingURL=style.css.map */
